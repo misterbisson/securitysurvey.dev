@@ -4,11 +4,9 @@ on:
   push:
     branches:
       - main
-      - reviseforuse
   pull_request:
     branches:
       - main
-      - reviseforuse
 
 jobs:
   build:

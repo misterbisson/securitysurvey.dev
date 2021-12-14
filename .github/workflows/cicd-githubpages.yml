@@ -1,4 +1,4 @@
-name: CI/CD
+name: CI/CD - Github Pages
 
 #
 # Uses Hyas project:
@@ -9,11 +9,9 @@ on:
   push:
     branches:
       - main
-      - reviseforuse
   pull_request:
     branches:
       - main
-      - reviseforuse
 
 jobs:
   build:
