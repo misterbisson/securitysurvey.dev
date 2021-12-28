@@ -1,42 +1,39 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "Home"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
-
-## Documentation
-# docsVersion = "0.3"
+titleAddition = "DevOps Security Survey"
+description = "Too many approaches to security focus on what developers and operators do wrong, but this survey focuses on what we're doing right so we can amplify it."
 
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+domainTLD = "securitysurvey.dev"
+titleHome = "DevOps Security Survey"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+twitterSite = "@thedevopsurvey" ## <- todo: needs updating
+twitterCreator = "@thedevopsurvey" ## <- todo: needs updating
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaName = "DevOps Security Survey"
+schemaAuthor = "Henk Verlinde" ## <- todo: needs updating
+schemaAuthorTwitter = "https://twitter.com/henkverlinde" ## <- todo: needs updating
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/" ## <- todo: needs updating
+schemaAuthorGitHub = "https://github.com/h-enk" ## <- todo: needs updating
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "logo-doks.png" ## <- todo: needs updating
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "doks.png" ## <- todo: needs updating
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
+schemaTwitter = "https://twitter.com/getdoks" ## <- todo: needs updating
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = "https://github.com/h-enk/doks" ## <- todo: needs updating
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -54,24 +51,17 @@ lqipWidth = "20x"
 smallLimit = "300"
 
 # Footer
-footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
+footer = "Sponsored by <a href='https://blubracket.com/'>BluBracket</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
-
-# Alert
-alert = false
-alertDismissable = true
-# alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
-alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
+copyRight = "Copyright (c) 2021 BluBracket"
 
 # Edit Page
 # repoHost [Github | Gitea | GitLab] is used for building the edit link based on git hoster
 repoHost = "GitHub"
-#repoHost = "Gitea"
-docsRepo = "https://github.com/h-enk/doks"
-docsRepoBranch = "master"
-editPage = false
+docsRepo = "https://github.com/misterbisson/securitysurvey.dev"
+docsRepoBranch = "main"
+editPage = true
 
 [options]
   lazySizes = true
