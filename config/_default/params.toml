@@ -13,8 +13,8 @@ domainTLD = "securitysurvey.dev"
 titleHome = "DevOps Security Survey"
 
 ## Twitter Cards
-twitterSite = "@thedevopsurvey" ## <- todo: needs updating
-twitterCreator = "@thedevopsurvey" ## <- todo: needs updating
+twitterSite = "@thedevopsurvey" 
+twitterCreator = "@thedevopsurvey"
 
 ## JSON-LD
 # schemaType = "Person"
